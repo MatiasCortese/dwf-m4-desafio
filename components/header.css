@@ -1,0 +1,126 @@
+.header-container {
+    height: 15vh;
+    padding: 32px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13171C;
+}
+
+@media (min-width: 960px) {
+    .header-container {
+        padding: 0 82px;
+        border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+    }
+}
+
+.logo a {
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.header__menu-mobile-btn {
+    width: 45px;
+    height: 45px;
+    border: 4px solid #FFF;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-mobile-bar {
+    width: 21.82px;
+    height: 4px;
+    background-color: #FFF;
+    border-radius: 5%;
+}
+
+@media (min-width: 960px) {
+    .header__menu-mobile-btn {
+        display: none;
+    }
+}
+
+.header__menu-mobile-btn:hover {
+    cursor: pointer;
+}
+
+.header__menu-mobile-active {
+    height: 100vh;
+    background-color: #000000;
+    display: none;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 43px 16px 0 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.menu-close-button {
+    color: white;
+    align-self: flex-end;
+    font-size: 32px;
+}
+
+.menu-close-button:hover {
+    cursor: pointer;
+}
+
+.menu-mobile-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.menu-mobile-item > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 96px;
+}
+
+.menu-mobile-item > a:hover {
+    cursor: pointer;
+}
+
+.header__menu-desktop {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: none;
+    gap: 42px;
+    
+}
+
+.header__menu-desktop a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 960px) {
+    .header__menu-desktop {
+        display: flex;
+    }
+}
+
+.header__menu-bar {
+    width: 21.82px;
+    height: 3.64px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.header__menu-desktop-item:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.services-container {
+    background-image: url(../images/doodle\ items.png);
+    background-color: #13171C;
+    height: 100%;
+    padding: 90px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* @media (min-width: 960px) {
+    .services-container {
+        padding: 90px 135px 90px 152px;
+        display: flex;
+        flex-direction: row;
+        gap: 45px;
+    }
+} */
+
+@media (min-width: 960px) {
+    .services {
+        display: flex;
+        flex-direction: row;
+        gap: 45px;
+    }
+}
+
+.services__title {
+    margin: 0; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    color: #EEEEEE;
+    margin-bottom: 44px;
+}
+
+.services__title-span {
+    color: #00ADB5;
+}
+
+
+.services__service {
+    width: 324px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 29px;
+    gap: 25px;
+    background: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px;
+    margin-bottom: 38px;
+}
+
+@media (min-width: 960px) {
+    .services__service {
+        max-width: 360px;
+        padding: 42px 47px;
+        height: auto;
+    }
+}
+
+.service-title, .service-text {
+    color: #EEEEEE;
+}
+
+.service-img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.service-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    /* or 33px */
+    text-align: center;
+    margin: 0;
+}
+.service-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
