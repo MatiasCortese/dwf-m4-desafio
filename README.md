@@ -6,4 +6,4 @@ Tecnologías y herramientas utilizadas:
 3. JavaScript
 4. Contentful
 
-GitHub Page: https://matiascortese.github.io/dwf-m4-desafio/contacto.html
+GitHub Page: https://matiascortese.github.io/dwf-m4-desafio/index.html
